@@ -17,10 +17,13 @@ using namespace std;
 
 int main() {
     string nome;
-    
+
     // TODO: Leia o nome do usuário
-    
+    std::cout << "digite seu nome: ";
+    getline(std::cin, nome);
+
     // TODO: Exiba a saudação personalizada
+    std::cout << "Olá, " << nome << "!" << std::endl;
     
     return 0;
 }
