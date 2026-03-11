@@ -104,3 +104,13 @@ int main() {
 
     return 0;
 }
+
+/*
+Alternativa correta:
+
+int min_idx = i;
+for (int j = i + 1; j < n; j++)
+    if (v[j] < v[min_idx])
+        min_idx = j;
+troca(v, i, min_idx);
+*/
