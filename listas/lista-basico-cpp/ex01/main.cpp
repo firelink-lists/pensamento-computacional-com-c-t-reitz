@@ -20,7 +20,7 @@ int main() {
 
     // TODO: Leia o nome do usuário
     std::cout << "digite seu nome: ";
-    getline(std::cin, nome);
+    std::cin >> nome;
 
     // TODO: Exiba a saudação personalizada
     std::cout << "Olá, " << nome << "!" << std::endl;
